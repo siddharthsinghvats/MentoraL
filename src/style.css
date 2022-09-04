@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.navbar-nav{
+    margin-left:auto;
+}
+.logo{
+    height:50px;
+    width:100%;
+}
+.home-cards-container{
+    display: flex;
+}
+.card-one{
+    margin-top: 5px;
+    width:100%;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border-right: 3px solid rgb(86, 83, 83);
+}
+.typer-container{
+    display: inline-block;
+    margin-bottom: 30px;
+    font-family: 'Roboto Mono', monospace;
+   
+  }
+  .typed{
+    overflow: hidden;
+    color: #A460ED;
+    font-size: 2.1rem!important;
+    border-right: .15em solid #943cf3;
+    white-space: nowrap;
+    animation: 
+    typing 2.5s steps(20, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+.card-two{
+    margin-top: 5px;
+    width:100%;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.home-btn{
+    display: block;
+  width: 100%;
+  height: 40px;
+  /* line-height: 40px; */
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333!important;
+  border: 2px solid #333!important;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  background: none!important;
+}
+.home-btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #A460ED;;
+    transition: all .35s;
+  }
+  
+  .home-btn:hover{
+    color: #fff!important;
+    border: 2px solid rgb(251, 249, 249)!important;
+  }
+  
+  .home-btn:hover:after{
+    width: 100%;
+  }
+.home-btn span{
+    position: relative;
+    z-index:2;
+}
+.home-cards{
+    background-color:#cfaaf6!important;
+    color:rgb(77, 2, 100);
+    transition: transform .2s;
+    box-shadow: 5px 5px 3px 2px #4c4b4b;
+    font-size: 1.15rem;
+}
+
+.card-text{
+    margin:20px 0;
+    font-family: 'Mukta',sans-serif;
+}
+
+.home-cards:hover{
+    transform: scale(1.1);
+}
+.navig{
+    background-color: #b502b2!important;
+  
+}

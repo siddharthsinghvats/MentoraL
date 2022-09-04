@@ -1,0 +1,9 @@
+body{
+
+    background-color: #f9dcfb;
+    /* opacity: 0.5; */
+    background-image: radial-gradient(#f771fe 0.8px, #f9dcfb 0.8px);
+    background-size: 16px 16px;
+
+}
+
